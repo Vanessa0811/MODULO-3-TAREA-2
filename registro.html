@@ -12,31 +12,50 @@
     <header>
         <nav>
             <ul class="barra">
-                <li class="lista"><img src="./img/PELICULAS 2.png" alt=""></li>
+                <li class="lista"><img src="./img/imagen.png" alt=""></li>
                 <li class="lista lista-r"><a href="./index.html">Inicio</a></li>   
             </ul>
         </nav>
     </header>
 
     <center>
-    <h1>Registro usuario.</h1>
+    <h1>Registro</h1>
     <hr>
     <br>
-        <form action=""> <b></b>
+        <form action="" id="formulario"> <b></b>
         <div id="mostrar" >
+        
+        <label for="nombre">Nombres:</label>
+        <input type="text" name="nombre" placeholder="Escribe tus nombres" id="Nombres"> <br>
+        <label for="apellido">Apellidos:</label>
+        <input type="text" name="apellido" placeholder="Escribe tus apellidos" id="Apellidos"> <br>
+        <label for="telefono">Telefono:</label>
+        <input type="text" name="telefono" placeholder="Escribe tu telefono" id="Telefono"><br>
+        <label for="direccion">Direccion:</label>
+        <input type="text" name="direccion" placeholder="Escribe tu direccion" id="Direccion"><br>
+        <br>
+        <label for="Observaciones">Observaciones:</label> <br>
+        <br>
+        <textarea name="" id="Observaciones" cols="30" rows="10"></textarea>
+        <br>
         
         </div>
         <div class="Enviar">
             <button type="submit" class="btn" id="Enviar">ENVIAR</button>
         </div>     
     <br>
-        <div id="alerta"></div>
+        <div id="alerta">
+
+        </div>
 
     </b>
+        <div id="listar">
+
+        </div>
     </form>
+    
 </center>
-        <script src="./script/dataregistro.js" type="module"></script>
+        
         <script src="./script/registro.js" type="module"></script>
 </body>
 </html>
-
